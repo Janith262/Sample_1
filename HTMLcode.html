@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Interactive Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 50px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Click the Button</h1>
+    <button onclick="showMessage()">Click Me</button>
+    <p id="message"></p>
+    
+    <script>
+        function showMessage() {
+            document.getElementById("message").innerText = "Hello, World!";
+        }
+    </script>
+</body>
+</html>
